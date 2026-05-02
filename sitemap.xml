@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ===== MAIN PAGES ===== -->
+
+  <url>
+    <loc>https://iptvcanda.com/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/og-home.jpg</image:loc>
+      <image:title>Best IPTV Service in Canada — 20,000+ Channels in 4K</image:title>
+      <image:caption>IPTV Canada home page — Canada's #1 premium IPTV provider</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/plans.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://iptvcanada.com/images/og-plans.jpg</image:loc>
+      <image:title>IPTV Canada Subscription Plans — From $19 CAD</image:title>
+      <image:caption>IPTV Canada plans page — Basic, Standard, Premium and Family packages</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/contact.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/og-contact.jpg</image:loc>
+      <image:title>Contact IPTV Canada — 24/7 WhatsApp Support</image:title>
+      <image:caption>Contact IPTV Canada for help, free trial, or subscription</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanaa.com/blog.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/og-blog.jpg</image:loc>
+      <image:title>IPTV Canada Blog — Guides, Tips &amp; News</image:title>
+      <image:caption>Latest IPTV guides, tutorials and news in Canada</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ===== BLOG POSTS ===== -->
+
+  <url>
+    <loc>https://iptvcanda.com/blog/best-iptv-canada-2026.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/blog/best-iptv-canada-2026.jpg</image:loc>
+      <image:title>Best IPTV Canada 2026: Top Service Reviewed</image:title>
+      <image:caption>Comprehensive review of the best IPTV service in Canada for 2026</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/blog/how-to-watch-nhl-on-iptv-canada.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/blog/nhl-iptv-canada.jpg</image:loc>
+      <image:title>How to Watch NHL on IPTV in Canada (2026 Guide)</image:title>
+      <image:caption>Complete guide to watching NHL hockey on IPTV in Canada</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/blog/iptv-vs-cable-tv-canada.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/blog/iptv-vs-cable-canada.jpg</image:loc>
+      <image:title>IPTV vs Cable TV in Canada: Which Saves You More?</image:title>
+      <image:caption>IPTV vs Cable TV comparison — Bell, Rogers, Shaw, Telus pricing</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/blog/best-iptv-for-firestick-canada.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/blog/iptv-firestick-canada.jpg</image:loc>
+      <image:title>Best IPTV for Amazon Firestick in Canada (2026)</image:title>
+      <image:caption>Complete setup guide for IPTV on Amazon Firestick in Canada</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/blog/how-to-install-iptv-on-smart-tv.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/blog/iptv-smart-tv-canada.jpg</image:loc>
+      <image:title>How to Install IPTV on Smart TV — Samsung, LG, Sony (2026)</image:title>
+      <image:caption>Step-by-step IPTV installation on Samsung, LG and Sony Smart TVs</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/blog/iptv-toronto-guide.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/blog/iptv-toronto-guide.jpg</image:loc>
+      <image:title>Best IPTV Service in Toronto — Complete 2026 Guide</image:title>
+      <image:caption>Best IPTV for Toronto — Leafs, Raptors, Blue Jays on TSN and Sportsnet</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/blog/iptv-montreal-guide.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/blog/iptv-montreal-guide.jpg</image:loc>
+      <image:title>IPTV Montréal: Best Service for Habs Fans (2026)</image:title>
+      <image:caption>Best IPTV in Montreal — Canadiens on TVA Sports and RDS in 4K</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/blog/iptv-vancouver-guide.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/blog/iptv-vancouver-guide.jpg</image:loc>
+      <image:title>IPTV Vancouver: Best Service for Canucks Fans (2026)</image:title>
+      <image:caption>Best IPTV in Vancouver — Canucks on Sportsnet Pacific in 4K</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/blog/is-iptv-legal-in-canada.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/blog/is-iptv-legal-canada.jpg</image:loc>
+      <image:title>Is IPTV Legal in Canada? (2026 Legal Update)</image:title>
+      <image:caption>IPTV legal status in Canada — CRTC regulations and guide to choosing a legitimate service</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iptvcanda.com/blog/best-4k-iptv-channels-canada.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://iptvcanda.com/images/blog/4k-iptv-canada.jpg</image:loc>
+      <image:title>Best 4K IPTV Channels in Canada 2026 — Ultimate Guide</image:title>
+      <image:caption>Best 4K Ultra HD IPTV channels in Canada including TSN, Sportsnet, CBC and more</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

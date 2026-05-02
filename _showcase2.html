@@ -1,0 +1,221 @@
+    <!-- MOVIES & SHOWS SHOWCASE -->
+    <section class="showcase-section section" aria-labelledby="showcase-heading">
+      <div class="container">
+        <header class="section-header">
+          <div class="section-badge">Content Library</div>
+          <h2 class="section-title" id="showcase-heading">
+            20,000+ Movies, Shows &amp; <span class="red">Sports Channels</span>
+          </h2>
+          <p class="section-sub">Browse a sample of what's available — all included from just <strong>$19</strong>.</p>
+        </header>
+
+        <!-- ROW 1: TRENDING NOW -->
+        <div class="movie-row fade-in">
+          <div class="movie-row-header">
+            <h3>🔥 Trending Now in Canada</h3>
+            <div class="scroll-controls">
+              <button class="scroll-btn scroll-prev" aria-label="Scroll left">◀</button>
+              <button class="scroll-btn scroll-next" aria-label="Scroll right">▶</button>
+            </div>
+          </div>
+          <div class="movie-grid" id="row-trending"></div>
+        </div>
+
+        <!-- ROW 2: LATEST MOVIES -->
+        <div class="movie-row fade-in">
+          <div class="movie-row-header">
+            <h3>🎬 Latest Movies (4K HD)</h3>
+            <div class="scroll-controls">
+              <button class="scroll-btn scroll-prev" aria-label="Scroll left">◀</button>
+              <button class="scroll-btn scroll-next" aria-label="Scroll right">▶</button>
+            </div>
+          </div>
+          <div class="movie-grid" id="row-movies"></div>
+        </div>
+
+        <!-- ROW 3: TV SERIES -->
+        <div class="movie-row fade-in">
+          <div class="movie-row-header">
+            <h3>📺 Popular TV Series &amp; Shows</h3>
+            <div class="scroll-controls">
+              <button class="scroll-btn scroll-prev" aria-label="Scroll left">◀</button>
+              <button class="scroll-btn scroll-next" aria-label="Scroll right">▶</button>
+            </div>
+          </div>
+          <div class="movie-grid" id="row-series"></div>
+        </div>
+
+        <!-- ROW 4: LIVE SPORTS -->
+        <div class="movie-row fade-in">
+          <div class="movie-row-header">
+            <h3>🏒 Live Sports — Canadian Favorites</h3>
+            <div class="scroll-controls">
+              <button class="scroll-btn scroll-prev" aria-label="Scroll left">◀</button>
+              <button class="scroll-btn scroll-next" aria-label="Scroll right">▶</button>
+            </div>
+          </div>
+          <div class="movie-grid" id="row-sports"></div>
+        </div>
+
+        <!-- ROW 5: KIDS & FAMILY -->
+        <div class="movie-row fade-in">
+          <div class="movie-row-header">
+            <h3>👨‍👩‍👧 Kids &amp; Family</h3>
+            <div class="scroll-controls">
+              <button class="scroll-btn scroll-prev" aria-label="Scroll left">◀</button>
+              <button class="scroll-btn scroll-next" aria-label="Scroll right">▶</button>
+            </div>
+          </div>
+          <div class="movie-grid" id="row-kids"></div>
+        </div>
+
+        <!-- ROW 6: INTERNATIONAL -->
+        <div class="movie-row fade-in">
+          <div class="movie-row-header">
+            <h3>🌍 International &amp; French Content</h3>
+            <div class="scroll-controls">
+              <button class="scroll-btn scroll-prev" aria-label="Scroll left">◀</button>
+              <button class="scroll-btn scroll-next" aria-label="Scroll right">▶</button>
+            </div>
+          </div>
+          <div class="movie-grid" id="row-international"></div>
+        </div>
+
+        <script>
+        (function () {
+          var movieData = {
+            trending: [
+              { img: "https://image.tmdb.org/t/p/w300/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg", title: "Hollywood Blockbusters", badge: "TRENDING", rating: "9.1" },
+              { img: "https://image.tmdb.org/t/p/w300/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg", title: "Top Comedy Hits", badge: "4K", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/9PFonBhy4cQy7Jz20NpMygczOkv.jpg", title: "Award-Winning Dramas", badge: "NEW", rating: "8.9" },
+              { img: "https://image.tmdb.org/t/p/w300/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg", title: "Trending Canadian Films", badge: "4K", rating: "8.2" },
+              { img: "https://image.tmdb.org/t/p/w300/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg", title: "Hit Sci-Fi Movies", badge: "HOT", rating: "9.0" },
+              { img: "https://image.tmdb.org/t/p/w300/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg", title: "Romantic Comedies", badge: "4K", rating: "8.3" },
+              { img: "https://image.tmdb.org/t/p/w300/aosm8NMQ3UyoBVpSxyimorCQykC.jpg", title: "True Crime Docs", badge: "NEW", rating: "8.7" },
+              { img: "https://image.tmdb.org/t/p/w300/xJWPZIYOEFIjZpBL7SVBGnzRYXp.jpg", title: "Indie Award Films", badge: "4K", rating: "8.4" },
+              { img: "https://image.tmdb.org/t/p/w300/xRWht48C2V8XNfzvPehyClOvDni.jpg", title: "Epic Adventure Films", badge: "4K", rating: "8.8" },
+              { img: "https://image.tmdb.org/t/p/w300/aR3bSNwQqdb7wYbCIH8hkECpdJG.jpg", title: "Blockbuster Thrillers", badge: "HOT", rating: "8.6" },
+              { img: "https://image.tmdb.org/t/p/w300/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg", title: "Superhero Universe", badge: "4K HDR", rating: "9.2" },
+              { img: "https://image.tmdb.org/t/p/w300/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg", title: "Animated Features", badge: "4K", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg", title: "Music & Concerts", badge: "LIVE", rating: "9.0" },
+              { img: "https://image.tmdb.org/t/p/w300/9PFonBhy4cQy7Jz20NpMygczOkv.jpg", title: "Documentary Series", badge: "NEW", rating: "8.7" }
+            ],
+            movies: [
+              { img: "https://image.tmdb.org/t/p/w300/jTswp6KyDYKtvC52GbHagrZbGvD.jpg", title: "New Releases 2026", badge: "NEW", rating: "8.8" },
+              { img: "https://image.tmdb.org/t/p/w300/rweIrveL43TaxUN0akQEaAXL6x0.jpg", title: "Superhero Movies", badge: "4K", rating: "9.0" },
+              { img: "https://image.tmdb.org/t/p/w300/kqjL17yufvn9OVLyXYpvtyrFfak.jpg", title: "Animated Family Movies", badge: "4K", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/aKx1ARwG55zZ0GpRvU2WrGrCG9p.jpg", title: "Classic Hollywood", badge: "HD", rating: "9.3" },
+              { img: "https://image.tmdb.org/t/p/w300/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg", title: "War & History Films", badge: "4K", rating: "8.7" },
+              { img: "https://image.tmdb.org/t/p/w300/q719jXXEzOoYaps6babgKnONNbF.jpg", title: "Crime Drama Films", badge: "4K", rating: "9.1" },
+              { img: "https://image.tmdb.org/t/p/w300/lc3CLG4iJQ8MZJyEWkPwVjbvezP.jpg", title: "4K Action Movies", badge: "4K HDR", rating: "8.9" },
+              { img: "https://image.tmdb.org/t/p/w300/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg", title: "DC Universe Films", badge: "4K", rating: "8.6" },
+              { img: "https://image.tmdb.org/t/p/w300/uppfVlbpaaP6CpZpZRRWqZRFcoT.jpg", title: "Horror & Thrillers", badge: "HD", rating: "8.4" },
+              { img: "https://image.tmdb.org/t/p/w300/8b8R8laGcRFhKCK9V61F4POxxXp.jpg", title: "International Cinema", badge: "4K", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/cE9XbGdYFMUYKHdnDzgLOMmTjna.jpg", title: "Fantasy & Magic", badge: "4K", rating: "8.8" },
+              { img: "https://image.tmdb.org/t/p/w300/ngl2FKBlU4fhbdsrtdom9LVLBXw.jpg", title: "Sci-Fi Blockbusters", badge: "4K HDR", rating: "9.0" },
+              { img: "https://image.tmdb.org/t/p/w300/tUae3mefrDVTgm5mRzqWnZK6fOP.jpg", title: "Mystery Films", badge: "HD", rating: "8.3" },
+              { img: "https://image.tmdb.org/t/p/w300/qhb1qOilapbapxWQn9jtRCMwXJF.jpg", title: "Biopic Movies", badge: "4K", rating: "8.7" }
+            ],
+            series: [
+              { img: "https://image.tmdb.org/t/p/w300/6yPCp2eGSi1jXrzwOudQFOAfRZe.jpg", title: "Top Streaming Series", badge: "HD", rating: "9.2" },
+              { img: "https://image.tmdb.org/t/p/w300/dvBCdCohwWbsP5qAaglOXagDMtk.jpg", title: "HBO Original Shows", badge: "4K", rating: "9.5" },
+              { img: "https://image.tmdb.org/t/p/w300/56v2KjBlU4XaOv9rVYEQypROD7P.jpg", title: "Netflix Originals", badge: "4K", rating: "9.1" },
+              { img: "https://image.tmdb.org/t/p/w300/9KwZB2XKFBmU4AJh7HZ6X8vAhWs.jpg", title: "Amazon Prime Series", badge: "HD", rating: "8.8" },
+              { img: "https://image.tmdb.org/t/p/w300/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg", title: "Disney+ Shows", badge: "4K", rating: "8.7" },
+              { img: "https://image.tmdb.org/t/p/w300/bD9Y3s3Q9RaTM6cAccuKXbHYAjh.jpg", title: "Reality TV Hits", badge: "HD", rating: "7.9" },
+              { img: "https://image.tmdb.org/t/p/w300/AcoVfiv1rrWOmAdpnAMnM56ki19.jpg", title: "Crime & Mystery Series", badge: "4K", rating: "9.0" },
+              { img: "https://image.tmdb.org/t/p/w300/lGFGFqAr4VYTTtUNtUcKkXAsIxX.jpg", title: "Comedy Sitcoms", badge: "HD", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/etj8E2o0Bud0HkONVQPjyCkIvpv.jpg", title: "Drama Series", badge: "4K", rating: "9.3" },
+              { img: "https://image.tmdb.org/t/p/w300/9HT9982bzgN5on1sLRmc1GMyhiB.jpg", title: "Sci-Fi Series", badge: "4K HDR", rating: "8.9" },
+              { img: "https://image.tmdb.org/t/p/w300/iqxvnvy8nvc0nVKkz2TkX8EoMUd.jpg", title: "Period Dramas", badge: "4K", rating: "8.6" },
+              { img: "https://image.tmdb.org/t/p/w300/jDz1q8d3yBNnaZBBpGfKAmGD9wC.jpg", title: "Medical Dramas", badge: "HD", rating: "8.4" },
+              { img: "https://image.tmdb.org/t/p/w300/A7EByudX0eOzlkQ2FIbogzyazm2.jpg", title: "Legal Thrillers", badge: "HD", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/qZeMxQqDrCTCXgB56UAeLqkW7pR.jpg", title: "Teen Series", badge: "4K", rating: "8.2" }
+            ],
+            sports: [
+              { img: "https://image.tmdb.org/t/p/w300/lc3CLG4iJQ8MZJyEWkPwVjbvezP.jpg", title: "NHL Hockey Live", badge: "LIVE", rating: "9.5" },
+              { img: "https://image.tmdb.org/t/p/w300/wRYJYgrAtkdHwvLA6JXIYY7mB42.jpg", title: "Toronto Maple Leafs", badge: "LIVE", rating: "9.2" },
+              { img: "https://image.tmdb.org/t/p/w300/kqjL17yufvn9OVLyXYpvtyrFfak.jpg", title: "Montreal Canadiens", badge: "LIVE", rating: "9.0" },
+              { img: "https://image.tmdb.org/t/p/w300/9PFonBhy4cQy7Jz20NpMygczOkv.jpg", title: "Vancouver Canucks", badge: "LIVE", rating: "8.8" },
+              { img: "https://image.tmdb.org/t/p/w300/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg", title: "NBA Toronto Raptors", badge: "LIVE", rating: "9.1" },
+              { img: "https://image.tmdb.org/t/p/w300/aKx1ARwG55zZ0GpRvU2WrGrCG9p.jpg", title: "MLB Toronto Blue Jays", badge: "LIVE", rating: "8.9" },
+              { img: "https://image.tmdb.org/t/p/w300/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg", title: "CFL Football Live", badge: "LIVE", rating: "8.6" },
+              { img: "https://image.tmdb.org/t/p/w300/aR3bSNwQqdb7wYbCIH8hkECpdJG.jpg", title: "UFC & Boxing PPV", badge: "PPV", rating: "9.3" },
+              { img: "https://image.tmdb.org/t/p/w300/q719jXXEzOoYaps6babgKnONNbF.jpg", title: "Premier League Soccer", badge: "LIVE", rating: "9.4" },
+              { img: "https://image.tmdb.org/t/p/w300/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg", title: "Champions League", badge: "LIVE", rating: "9.5" },
+              { img: "https://image.tmdb.org/t/p/w300/rweIrveL43TaxUN0akQEaAXL6x0.jpg", title: "Formula 1 Racing", badge: "LIVE", rating: "9.2" },
+              { img: "https://image.tmdb.org/t/p/w300/cE9XbGdYFMUYKHdnDzgLOMmTjna.jpg", title: "Tennis Grand Slams", badge: "LIVE", rating: "8.8" },
+              { img: "https://image.tmdb.org/t/p/w300/aosm8NMQ3UyoBVpSxyimorCQykC.jpg", title: "Golf PGA Tour", badge: "LIVE", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/ngl2FKBlU4fhbdsrtdom9LVLBXw.jpg", title: "MLS Soccer", badge: "LIVE", rating: "8.7" }
+            ],
+            kids: [
+              { img: "https://image.tmdb.org/t/p/w300/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg", title: "Disney Channel Shows", badge: "HD", rating: "8.7" },
+              { img: "https://image.tmdb.org/t/p/w300/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg", title: "Cartoon Network Hits", badge: "4K", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg", title: "Nickelodeon Favorites", badge: "HD", rating: "8.3" },
+              { img: "https://image.tmdb.org/t/p/w300/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg", title: "Pixar Animated Movies", badge: "4K", rating: "9.0" },
+              { img: "https://image.tmdb.org/t/p/w300/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg", title: "Educational Content", badge: "HD", rating: "8.6" },
+              { img: "https://image.tmdb.org/t/p/w300/xJWPZIYOEFIjZpBL7SVBGnzRYXp.jpg", title: "Kids Movies in 4K", badge: "4K HDR", rating: "8.8" },
+              { img: "https://image.tmdb.org/t/p/w300/xRWht48C2V8XNfzvPehyClOvDni.jpg", title: "Family-Friendly Films", badge: "4K", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/qZeMxQqDrCTCXgB56UAeLqkW7pR.jpg", title: "Teen Comedy Series", badge: "HD", rating: "8.2" },
+              { img: "https://image.tmdb.org/t/p/w300/lGFGFqAr4VYTTtUNtUcKkXAsIxX.jpg", title: "Preschool Shows", badge: "HD", rating: "8.7" },
+              { img: "https://image.tmdb.org/t/p/w300/9HT9982bzgN5on1sLRmc1GMyhiB.jpg", title: "Anime for Kids", badge: "4K", rating: "8.9" },
+              { img: "https://image.tmdb.org/t/p/w300/iqxvnvy8nvc0nVKkz2TkX8EoMUd.jpg", title: "Adventure Cartoons", badge: "4K", rating: "8.4" },
+              { img: "https://image.tmdb.org/t/p/w300/jDz1q8d3yBNnaZBBpGfKAmGD9wC.jpg", title: "Musical Movies", badge: "4K", rating: "8.6" },
+              { img: "https://image.tmdb.org/t/p/w300/A7EByudX0eOzlkQ2FIbogzyazm2.jpg", title: "Wildlife Documentaries", badge: "4K HDR", rating: "9.1" },
+              { img: "https://image.tmdb.org/t/p/w300/uppfVlbpaaP6CpZpZRRWqZRFcoT.jpg", title: "Holiday Specials", badge: "HD", rating: "8.5" }
+            ],
+            international: [
+              { img: "https://image.tmdb.org/t/p/w300/etj8E2o0Bud0HkONVQPjyCkIvpv.jpg", title: "French Movies & Series", badge: "HD", rating: "8.8" },
+              { img: "https://image.tmdb.org/t/p/w300/56v2KjBlU4XaOv9rVYEQypROD7P.jpg", title: "TVA & Radio-Canada", badge: "LIVE", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/dvBCdCohwWbsP5qAaglOXagDMtk.jpg", title: "Bollywood Hits", badge: "4K", rating: "8.7" },
+              { img: "https://image.tmdb.org/t/p/w300/6yPCp2eGSi1jXrzwOudQFOAfRZe.jpg", title: "Arabic Channels", badge: "LIVE", rating: "8.6" },
+              { img: "https://image.tmdb.org/t/p/w300/9KwZB2XKFBmU4AJh7HZ6X8vAhWs.jpg", title: "Spanish Telenovelas", badge: "HD", rating: "8.3" },
+              { img: "https://image.tmdb.org/t/p/w300/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg", title: "Italian Cinema", badge: "4K", rating: "8.9" },
+              { img: "https://image.tmdb.org/t/p/w300/AcoVfiv1rrWOmAdpnAMnM56ki19.jpg", title: "Korean Dramas", badge: "4K HDR", rating: "9.2" },
+              { img: "https://image.tmdb.org/t/p/w300/bD9Y3s3Q9RaTM6cAccuKXbHYAjh.jpg", title: "Asian Cinema", badge: "4K", rating: "8.7" },
+              { img: "https://image.tmdb.org/t/p/w300/jTswp6KyDYKtvC52GbHagrZbGvD.jpg", title: "European Films", badge: "HD", rating: "8.5" },
+              { img: "https://image.tmdb.org/t/p/w300/qhb1qOilapbapxWQn9jtRCMwXJF.jpg", title: "Latin American", badge: "4K", rating: "8.6" },
+              { img: "https://image.tmdb.org/t/p/w300/tUae3mefrDVTgm5mRzqWnZK6fOP.jpg", title: "African Cinema", badge: "HD", rating: "8.4" },
+              { img: "https://image.tmdb.org/t/p/w300/lc3CLG4iJQ8MZJyEWkPwVjbvezP.jpg", title: "Turkish Series", badge: "4K", rating: "8.8" },
+              { img: "https://image.tmdb.org/t/p/w300/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg", title: "Japanese Anime", badge: "4K HDR", rating: "9.4" },
+              { img: "https://image.tmdb.org/t/p/w300/8b8R8laGcRFhKCK9V61F4POxxXp.jpg", title: "World Documentaries", badge: "4K", rating: "8.9" }
+            ]
+          };
+
+          function generateMovieCards(items) {
+            return items.map(function(item) {
+              var msg = encodeURIComponent('Hello, I want to watch ' + item.title + ' with IPTV Canada');
+              return '<div class="movie-card">'
+                + '<img src="' + item.img + '" alt="' + item.title + ' on IPTV Canada" loading="lazy" width="300" height="450">'
+                + '<span class="movie-badge">' + item.badge + '</span>'
+                + '<div class="movie-card-title">' + item.title + '</div>'
+                + '<div class="movie-overlay">'
+                + '<div class="movie-meta"><span class="rating">★ ' + item.rating + '</span><span>2026</span><span>' + item.badge + '</span></div>'
+                + '<a href="https://wa.me/17867352904?text=' + msg + '" target="_blank" rel="noopener" class="watch-btn">► Watch Now</a>'
+                + '</div></div>';
+            }).join('');
+          }
+
+          document.getElementById('row-trending').innerHTML     = generateMovieCards(movieData.trending);
+          document.getElementById('row-movies').innerHTML       = generateMovieCards(movieData.movies);
+          document.getElementById('row-series').innerHTML       = generateMovieCards(movieData.series);
+          document.getElementById('row-sports').innerHTML       = generateMovieCards(movieData.sports);
+          document.getElementById('row-kids').innerHTML         = generateMovieCards(movieData.kids);
+          document.getElementById('row-international').innerHTML = generateMovieCards(movieData.international);
+        }());
+        </script>
+
+        <!-- SHOWCASE BOTTOM CTA -->
+        <div class="showcase-cta fade-in" role="complementary" aria-label="Content access call to action">
+          <div class="showcase-cta-inner">
+            <p class="showcase-cta-emoji" aria-hidden="true">🎬</p>
+            <h3>Like what you see? Get instant access to ALL this content + 20,000 live channels for just <span class="red">$19</span>!</h3>
+            <p>No contracts. No equipment rental. Instant activation in under 5 minutes via WhatsApp.</p>
+            <a href="https://wa.me/17867352904?text=Hello%2C%20I%20want%20to%20subscribe%20to%20IPTV%20Canada%20%E2%80%94%20I%20loved%20the%20content%20showcase!" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> Subscribe via WhatsApp — Get Access Now
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>

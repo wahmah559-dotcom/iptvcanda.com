@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://iptvcanda.com/sitemap.xml
+
+# Block common admin/sensitive paths (none exist, but good practice)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.log$
+
+# Crawl-delay for bots that respect it
+Crawl-delay: 2
+
+# Allow all major search engines explicitly
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
