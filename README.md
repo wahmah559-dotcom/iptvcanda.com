@@ -32,7 +32,7 @@ iptvcanda/
 3. Delete any default files (`index.html`, etc.)
 4. Upload **all files and folders** from this project, preserving the directory structure
 5. Ensure `.htaccess` is visible (enable "Show Hidden Files" if needed)
-6. Visit `https://iptvcanada.com` — your site is live!
+6. Visit `https://iptvcanda.com` — your site is live!
 
 ### Option B — FTP (FileZilla)
 1. Open FileZilla → connect using your Hostinger FTP credentials (Host/User/Password/Port 21)
@@ -67,8 +67,8 @@ iptvcanda/
 
 ### Week 1 — Indexing
 
-- [ ] **Google Search Console** — go to [search.google.com/search-console](https://search.google.com/search-console), add property `https://iptvcanada.com`, verify via HTML tag or DNS
-- [ ] Submit sitemap: `https://iptvcanada.com/sitemap.xml`
+- [ ] **Google Search Console** — go to [search.google.com/search-console](https://search.google.com/search-console), add property `https://iptvcanda.com`, verify via HTML tag or DNS
+- [ ] Submit sitemap: `https://iptvcanda.com/sitemap.xml`
 - [ ] **Bing Webmaster Tools** — [bing.com/webmasters](https://bing.com/webmasters), add site, submit sitemap
 - [ ] **Google Analytics 4** — create property, add GA4 tracking script before `</head>` on all pages
 - [ ] Test with **Google PageSpeed Insights**: [pagespeed.web.dev](https://pagespeed.web.dev) — aim for 90+ on all metrics
