@@ -1,4 +1,4 @@
-# IPTV Canada — iptvcanada.com
+﻿# IPTV Canada — iptvcanda.com
 
 Production-ready IPTV website for the Canadian market. Dark theme, mobile-first, full SEO, WhatsApp-driven lead conversion.
 
@@ -186,4 +186,4 @@ To change the number: find and replace `17867352904` across all 3 HTML files.
 
 ---
 
-*Built for iptvcanada.com — 2026*
+*Built for iptvcanda.com — 2026*
